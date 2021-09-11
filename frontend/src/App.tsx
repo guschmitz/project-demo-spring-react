@@ -1,7 +1,8 @@
 import NavBar from "components/NavBar";
 import DataTable from "components/DataTable";
-import Footer from "components/Footer";
 import BarChart from "components/BarChart";
+import DonutChart from "components/DonutChart";
+import Footer from "components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,10 @@ function App() {
         <div className="cal-sm-6">
           <h5 className="text-center text-secondary">Success rate (%)</h5>
           <BarChart />
+        </div>
+        <div className="cal-sm-6">
+          <h5 className="text-center text-secondary">Success rate (%)</h5>
+          <DonutChart />
         </div>
       </div>
 
